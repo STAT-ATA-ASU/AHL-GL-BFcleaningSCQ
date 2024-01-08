@@ -38,8 +38,8 @@ In the article *Fitting Percentage of Body Fat to Simple Body Measurements*, @jo
 
 The purpose of this activity is to have the reader critically question, evaluate, and clean the original data provided at <http://jse.amstat.org/datasets/fat.dat.txt>. The guided activities will reinforce reading data into R using the `fread()` function from the **data.table** package written by @R-data.table, creating graphs with both packages **ggplot2** and **plotly** written by @R-ggplot2 and @R-plotly, respectively, and creating new variables with functions such as `mutate()` from the **dplyr** package written by @R-dplyr.
 
-::: callout-tip
-Type complete sentences to answer all questions inside the `answer` tags provided in the R Markdown document. Round all numeric answers you report inside the answer tags to four decimal places. Use inline `R` code to report numeric answers inside the `answer` tags (i.e. do not hard code your numeric answers).
+:::{.callout-tip icon="false" title="Directions"}
+Type complete sentences to answer all questions inside the `.callout` tags provided in the Quarto document. Round all numeric answers you report inside the answer tags to four decimal places. Use inline `R` code to report numeric answers inside the `.callout` tags (i.e. do not hard code your numeric answers).
 
 The article by @johnson_fitting_1996 defines body-fat determined with the brozek and siri methods as well as fat free weight using (@eq-brozek), (@eq-siri), and (@eq-fatfree), respectively.
 
